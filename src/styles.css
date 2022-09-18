@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  /*border: 1px solid rgba(43, 43, 43, 0.422);*/
+}
+
+body {
+  background-color: #182146;
+  margin: 0;
+  font-family: raleway;
+  padding: 1rem;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #e8edff;
+}
+header h4 {
+  margin: 2rem;
+}
+.logo-cont {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+.header-logo {
+  height: 2rem;
+  margin: 1rem;
+}
+.form {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 1rem;
+  gap: 1rem;
+}
+.form input,
+.form button,
+.form select {
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+}
+button {
+  grid-column: 1/-1;
+  background-color: rgb(113, 141, 255);
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #163bd1;
+  color: rgb(red, green, blue);
+}
+.meme--img {
+  grid-column: 1/-1;
+  max-height: 40rem;
+  border-radius: 1rem;
+  max-width: 100%;
+}
+.box {
+  height: 6rem;
+  width: 7rem;
+  border-radius: 1rem;
+  margin: 0 1rem 1rem 0;
+  display: inline-block;
+  cursor: pointer;
+}
+.box-challange {
+  margin: 0 1rem 1rem 1rem;
+  background-color: #0b122e;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.jokes,
+.input-demo,
+section {
+  margin: 0 1rem 1rem 1rem;
+  background-color: #435cc0;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+section {
+  background-color: #1f2b5b;
+}
+.input-demo {
+  background-color: #1e379b;
+}
+.jokes hr {
+  border: 1px solid white;
+}
+.jokes button {
+  border: none;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+textarea {
+  border-radius: 1rem;
+  text-indent: 1rem;
+}
+
+.wide-grid {
+  grid-column: 1/-1;
+}
+.radio-input {
+  border-radius: 1.2rem;
+}
+.meme {
+  position: relative;
+}
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
